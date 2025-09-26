@@ -1,5 +1,5 @@
 pipeline {
-    agent none
+    agent any
     stages {
         stage('Print Branch') {
             agent { label 'docker-agent' }
